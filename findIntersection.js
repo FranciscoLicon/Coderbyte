@@ -1,4 +1,4 @@
-const FindIntersection = (strArr) => { 
+const findIntersection = (strArr) => { 
     let hash = {};
     let arrRes = [];
     const arrA = strArr[0].split(', ');
@@ -21,5 +21,5 @@ const FindIntersection = (strArr) => {
     
   }
      
-  // keep this function call here 
-  console.log(FindIntersection(readline()));
+// keep this function call here 
+console.log(findIntersection(readline()));

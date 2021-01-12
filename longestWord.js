@@ -1,4 +1,4 @@
-const LongestWord = (sen) => { 
+const longestWord = (sen) => { 
 
     const words = sen.split(' ');
     const realWords = [];
@@ -7,15 +7,15 @@ const LongestWord = (sen) => {
         realWords.push(word);
       }
     });
-    let longestWord = '';
+    let longWord = '';
     realWords.forEach(realWord => {
-      if(realWord.length > longestWord.length){
-        longestWord = realWord;
+      if(realWord.length > longWord.length){
+        longWord = realWord;
       }
     });
-    return longestWord; 
+    return longWord; 
   
   }
      
-  // keep this function call here 
-  console.log(LongestWord(readline()));
+// keep this function call here 
+console.log(longestWord(readline()));

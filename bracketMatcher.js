@@ -1,4 +1,4 @@
-const BracketMatcher = (str) => { 
+const bracketMatcher = (str) => { 
 
     const arrAux = str.split('');
     let pair = 0;
@@ -19,5 +19,5 @@ const BracketMatcher = (str) => {
     }
   }
      
-  // keep this function call here 
-  console.log(BracketMatcher(readline()));
+// keep this function call here 
+console.log(bracketMatcher(readline()));
